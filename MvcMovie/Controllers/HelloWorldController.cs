@@ -17,10 +17,10 @@ namespace MvcMovie.Controllers
         }
         
         // GET HelloWorld/Welcome/
-        public string Welcome(string name, int numTimes = 1)
+        public string Welcome(string name, int ID = 77)
         {
             //return "This is the Welcome action method..";
-            return HttpUtility.HtmlEncode("Hello you bozo " + name + " numtimes is " + numTimes);
+            return HttpUtility.HtmlEncode("Hello you bozo " + name + " ID " + ID);
         }
     }
 }
