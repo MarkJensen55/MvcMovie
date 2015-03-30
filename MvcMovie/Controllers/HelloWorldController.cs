@@ -10,9 +10,9 @@ namespace MvcMovie.Controllers
     {
         // GET: HelloWorld
 
-        public string index()
+        public ActionResult index()
         {
-            return "This is my <b>default</b> action ...";
+            return View();
 
         }
         
