@@ -19,7 +19,8 @@ namespace MvcMovie
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
 
-            // added this code per intructions.  Don't understand what's happening at all
+             //added this code per intructions.  
+            //mapping the location data to controller, method and parms
             routes.MapRoute(
                 name:"Hello", url: "{controller}/{action}/{name}/{id}"
             );
