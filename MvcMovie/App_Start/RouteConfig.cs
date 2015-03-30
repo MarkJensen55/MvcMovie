@@ -18,6 +18,8 @@ namespace MvcMovie
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            // added this code per intructions.  Don't understand what's happening at all
             routes.MapRoute(
                 name:"Hello", url: "{controller}/{action}/{name}/{id}"
             );
