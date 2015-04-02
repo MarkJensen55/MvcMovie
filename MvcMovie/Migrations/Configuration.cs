@@ -23,7 +23,8 @@ namespace MvcMovie.Migrations
                     Title = "When Harry Met Sally",
                     ReleaseDate = DateTime.Parse("1989-1-11"),
                     Genre = "Romantic Comedy",
-                    Price = 88.99M
+                    Price = 88.99M,
+                    Rating="PG"
                 },
 
                 new Movie
@@ -31,7 +32,8 @@ namespace MvcMovie.Migrations
                     Title = "GhostBusters",
                     ReleaseDate = DateTime.Parse("1984-3-13"),
                     Genre = "Comedy",
-                    Price = 9.99M
+                    Price = 9.99M,
+                    Rating="XXX"
                 },
 
                 new Movie
@@ -39,7 +41,8 @@ namespace MvcMovie.Migrations
                     Title = "PeeWee's Big Adventure",
                     ReleaseDate = DateTime.Parse("2014-5-5"),
                     Genre = "Comedy",
-                    Price = 3.95M
+                    Price = 3.95M,
+                    Rating="PG13"
                 }
 
                 );
