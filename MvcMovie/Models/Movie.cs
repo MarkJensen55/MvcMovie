@@ -7,6 +7,8 @@ namespace MvcMovie.Models
     public class Movie
     {
         public int ID { get; set; }
+
+        [StringLength(60, MinimumLength=3)]
         public string Title { get; set; }
 
         // change the header and formatting of the date field
