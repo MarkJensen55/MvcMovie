@@ -190,6 +190,10 @@
     <Compile Include="Migrations\201504031941394_AttrAgain.Designer.cs">
       <DependentUpon>201504031941394_AttrAgain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201504031945397_pg13.cs" />
+    <Compile Include="Migrations\201504031945397_pg13.Designer.cs">
+      <DependentUpon>201504031945397_pg13.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
@@ -292,6 +296,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201504031941394_AttrAgain.resx">
       <DependentUpon>201504031941394_AttrAgain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201504031945397_pg13.resx">
+      <DependentUpon>201504031945397_pg13.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
