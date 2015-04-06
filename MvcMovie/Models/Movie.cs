@@ -18,7 +18,7 @@ namespace MvcMovie.Models
         [DisplayFormat(DataFormatString= "{0:yyyy-MM-dd}", ApplyFormatInEditMode=true)]
         public DateTime ReleaseDate { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[A-Za-z''-'\s]*$")]
+        [RegularExpression(@"^[A-Z]+[a-zA-Z''-'\s]*$")]
         [Required]
         [StringLength(30)]
         public string Genre { get; set; }
@@ -27,7 +27,7 @@ namespace MvcMovie.Models
         [DataType(DataType.Currency)]
         public decimal Price { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z''-'0-9\s]*$")]
+        [RegularExpression(@"^[A-Z]+[-a-zA-Z''0-9\s]*$")]
         [StringLength(5)]
         public string Rating { get; set; }
     }
